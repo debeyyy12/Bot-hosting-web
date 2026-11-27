@@ -1,0 +1,23 @@
+# Runtime data — uploaded bots, their logs, and the SQLite database.
+data/
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Recon artefacts, if this tree is ever pushed
+.rea/
+tools/__pycache__/
